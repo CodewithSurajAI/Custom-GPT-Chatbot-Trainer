@@ -1,0 +1,3 @@
+chart_type = st.selectbox("Choose Chart Type", ["Scatter", "Histogram", "Box", "Bar"])
+x_axis = st.selectbox("X-axis", num_cols)
+y_axis = st.selectbox("Y-axis", num_cols, index=1)
